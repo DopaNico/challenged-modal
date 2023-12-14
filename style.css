@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(236, 236, 236);
+}
+
+.header-modal {
+    font-family: "Roboto";
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #203774;
+    color: aliceblue;
+    padding: 20px;
+    gap: 250px;
+    border-radius: 10px 10px 0px 0px;
+    margin-top: 50px;
+}
+
+.info-modal {
+    background-color: #fff;
+    width: 700px;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+
+
+.date {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    font-family: "Roboto";
+    font-weight: 600;
+    font-size: 24px;
+}
+
+.date span {
+    color: gainsboro;
+    font-weight: 100;
+}
+
+.date .cierre {
+    font-weight: bold;
+    color: black;
+}
+
+.date-today {
+    text-align: center;
+    font-weight: bold;
+    font-family: "Roboto";
+}
+
+.infograph {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.card {
+    background-color: #203774;
+    width: 465px;
+    height: 220px;
+    border-radius: 10px;
+    padding: 30px 25px 0 45px;
+    display: flex;
+    /* flex-direction: column; */
+    gap: 45px;
+    /* justify-content: space-evenly; */
+    font-family: 'Roboto', sans-serif;
+
+}
+
+.card-info {
+    color: #fff;
+    display: flex;
+    gap: 5px;
+    flex-direction: column;
+}
+
+.detalles {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.card-info span {
+    font-size: 14px;
+    font-weight: 100;
+    width: 100px;
+}
+
+.card-img span {
+    font-weight: 600;
+    font-size: 16px;
+    width: 100%;
+}
+
+.card-info h2 {
+    font-weight: 800;
+    font-size: 24px;
+}
+
+.card-info p {
+    color: #fff;
+    margin-top: 90px;
+}
+
+.card-info-2 {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+button {
+    width: 150px;
+    border-radius: 10px;
+    border: none;
+    height: 50px;
+    font-weight: 600;
+    font-family: "Roboto";
+    cursor: pointer;
+}
+
+.card-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    
+}
+
+.card-img img{
+
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: 3px solid #4868BD;
+    /* background: url(./assets/copa.jpeg) no-repeat center/cover;  */
+}
