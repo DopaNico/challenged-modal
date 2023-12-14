@@ -27,6 +27,12 @@ body {
     margin-top: 50px;
 }
 
+.header-modal span {
+    font-weight: 600;
+    font-size: 24px;
+    cursor: pointer;
+}
+
 .info-modal {
     background-color: #fff;
     width: 700px;
